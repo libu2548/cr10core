@@ -170,7 +170,7 @@ The CR10CORE is an evolving project.
 
 # 📸 Gallery
 
-<!-- Add photos and videos of the printer here -->
+
 
 ---
 
