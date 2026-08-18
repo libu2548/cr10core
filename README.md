@@ -8,33 +8,23 @@
 
 ---
 
-## 📖 The story
+##  MY story
 
 This is the project that occupied **almost every evening of my 2025–2026 year... and quite a few evenings before and after that.**
 
 In 2025, I was an engineering student who had just failed my first year of preparatory studies. I was broke, but I had a 3D printer: a **Creality CR-10S Pro V2**.
 
-It was already a fairly large printer compared to something like an Ender 3, but I quickly started running into its limitations:
+It was already a fairly large printer (315mmx315mmx400mm) compared to something like an Ender 3, but I quickly started running into its limitations
 
-* 🐌 Limited printing speed
-* 🛏️ Bed leveling issues
-* 🌡️ Warping
-* ⚙️ Heavy moving bed
-* 🔧 A mechanical architecture that made high-speed printing difficult
+i already heavily modified this one with bigger motor, an enclosure and a direct drive extruder but was still limited by material printing (only petg and pla) and speed
 
 So I decided to build my own printer.
 
-Not a Voron.
-
-Not a Bambu Lab.
-
-Not a Snapmaker.
-
-And definitely not an expensive commercial machine.
+Not a Voron.Not a Bambu Lab.Not a Snapmaker.
 
 The goal was much simpler:
 
-> **Build the best large-format printer I could, using what I already had, cheap components, salvaged parts and a lot of engineering.**
+> **Build the best large-format printer I could, using what I already had : salvaged parts from my last printer and a lot of time.**
 
 What started as a way to get around the limitations of my CR-10S Pro V2 slowly turned into a much bigger project.
 
@@ -46,47 +36,45 @@ And then something happened that I absolutely did not expect.
 
 I presented the printer at the **Polytech3D Challenge**.
 
-The machine ended up winning a prize and, more importantly to me, received recognition from several professionals in the 3D printing industry who were present at the event.
+The machine ended up winning a prize and more importantly to me received recognition from several professionals in the 3D printing industry who were present at the event.
 
-A project that started because I couldn't afford the printer I wanted had become a machine I was proud to put in front of people who actually work in the industry.
 
-**This repository is the story of how it happened.**
+**This repository keep track of my last year of project.**
 
 ---
 
-# 🖨️ About the CR10CORE
+#  About the CR10CORE
 
-CR10CORE is a **homemade large-format CoreXY 3D printer** designed around the idea that high performance does not necessarily require expensive hardware.
+CR10CORE is a **homemade large-format CoreXY 3D printer** designed very poorly by me 
 
 The machine is built around:
 
+* Verry customizable part
 * CoreXY kinematics
 * Large build volume
 * Klipper firmware
 * Custom mechanical components
-* Custom electronics integration
+* Custom electronics
 * High-speed motion
 * Automatic bed leveling
+* Z-tilt
 * Input Shaper
 * Pressure Advance
 * Custom toolhead system
-* [Add other confirmed features here]
+* laser engraving/ cutting capability
+
 
 The project intentionally prioritizes:
 
 **Performance / Cost / Repairability / Modifiability**
 
-rather than following a predefined commercial ecosystem.
-
 ---
 
-## 🎯 Design philosophy
+##  Design philosophy
 
 The project started with a few simple rules.
 
-### 💰 Keep the cost low
-
-Every expensive component should have a reason to exist.
+###  Keep the cost low
 
 Whenever possible, I try to use:
 
@@ -97,23 +85,23 @@ Whenever possible, I try to use:
 * 3D printed parts
 * DIY solutions
 
-### 🔧 Make it repairable
+###  Make it repairable
 
 The printer is designed to be understood and repaired by its builder.
 
 No proprietary ecosystem should be required to keep the machine running.
 
-### 🧪 Experiment
+### Burning thing
 
 Not every idea works.
 
 This repository intentionally documents prototypes, failed designs, measurements and experiments instead of only showing the final result.
 
-### 📐 Design rather than assemble
+###  Design rather than assemble
 
 The goal is not simply to assemble existing printer components.
 
-A large part of the machine has been **designed specifically for this project**.
+Every part of the machine has been **designed specifically for this project**.
 
 ---
 
