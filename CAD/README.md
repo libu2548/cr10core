@@ -6,7 +6,7 @@ The goal is to make the CAD easy to understand, modify and reuse without having 
 
 ---
 
-## 📁 Structure
+## Structure
 
 Each major subsystem of the printer has its own directory:
 
@@ -46,7 +46,7 @@ CAD/
 
 ---
 
-# 🧩 Assemblies
+#  Assemblies
 
 Each folder represents a complete subsystem of the printer.
 
@@ -65,29 +65,6 @@ Toolhead/
 ├── Assembly.png
 └── README.md
 ```
-
-### `Parts/`
-
-Contains the individual components used to build the subsystem.
-
-The files are provided primarily in **STEP format** so that they can be opened and edited in most CAD software.
-
-### `Assembly.step`
-
-Contains the complete assembled subsystem.
-
-This makes it possible to inspect the design without having to manually assemble all the individual components.
-
-### `Assembly.png`
-
-A preview image of the current assembly.
-
-The image is intended to provide a quick visual reference before opening the CAD files.
-
-### `README.md`
-
-A short description of the subsystem and a record of the latest changes.
-
 ---
 
 #  Versioning
