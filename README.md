@@ -8,7 +8,7 @@
 
 ---
 
-##  MY story
+##  about Me
 
 This is the project that occupied **almost every evening of my 2025–2026 year... and quite a few evenings before and after that.**
 
@@ -22,22 +22,15 @@ So I decided to build my own printer.
 
 Not a Voron.Not a Bambu Lab.Not a Snapmaker.
 
-the printer i wanted didn't existed yet, i was run by the idée : 
-
-> **Build the best large-format printer I could, using what I already had : salvaged parts from my last printer and a lot of time.** 
-
-What started as a way to get around the limitations of my CR-10S Pro V2 slowly turned into a much bigger project.
+the printer i wanted didn't existed yet i wanted to  > **Build the best large-format printer I could, using what I already had : parts from my last printer and a lot of time.** 
 
 I designed the mechanics, experimented with different architectures, built custom electronics and firmware configurations, broke things, rebuilt them, measured them, redesigned them, and gradually turned a pile of inexpensive parts into a surprisingly capable machine.
 
-And then something happened that I absolutely did not expect.
-
-### One year later...
+### and One year later...
 
 I presented the printer at the **Polytech3D Challenge**.
 
 The machine ended up winning a prize and more importantly to me received recognition from several professionals in the 3D printing industry who were present at the event.
-
 
 **This repository keep track of my last year of project.**
 
@@ -73,11 +66,6 @@ The project intentionally prioritizes:
 ---
 
 ##  Design philosophy
-
-The project started with a few simple rules.
-
-###  Keep the cost low
-
 Whenever possible, I try to use:
 
 * Standard hardware
@@ -87,69 +75,34 @@ Whenever possible, I try to use:
 * 3D printed parts
 * DIY solutions
 
-###  Make it repairable
-
 The printer is designed to be understood and repaired by its builder.
 
 No proprietary ecosystem should be required to keep the machine running.
 
-### Burning thing
+### and me and your ar going to Burn thing
 
 Not every idea works.
 
-This repository intentionally documents prototypes, failed designs, measurements and experiments instead of only showing the final result.
+This will repository intentionally documents prototypes, failed designs, measurements and experiments instead of only showing the final result.
 
-###  Design rather than assemble
 
 The goal is not simply to assemble existing printer components.
-
 Every part of the machine has been **designed specifically for this project**.
-
----
-
-#  Specifications
-
-> ⚠️ This section is currently being completed.
-
-| Specification | CR10CORE |
-| ------------- | -------- |
-| Kinematics    | CoreXY   |
-| Build volume  | TBD      |
-| Firmware      | Klipper  |
-| Mainboard     | TBD      |
-| MCU           | TBD      |
-| Extruder      | TBD      |
-| Hotend        | TBD      |
-| Motion system | TBD      |
-| Input Shaper  | Yes      |
-| Bed leveling  | Yes      |
-| Toolchanger   | TBD      |
-| Power supply  | TBD      |
 
 ---
 
 #  Documentation
 
-The documentation is being built alongside the machine.
-
-###  Building the printer
-
-to do 
-
-###  Technical documentation
-
-to do
+go see the wiki linked in every readme it should explain something if not reach to me
 
 ###  Experiments & development
-
-The `Research/` directory contains experiments, prototypes, calculations and design decisions made throughout the development of the printer.
+The `Research/` directory contains experiments, prototypes, calculations and design decisions made throughout the development of the printer. i will complete this part in September
 
 ---
 
-# 🗺️ Project status
+#  Project status
 
 The CR10CORE is an evolving project.
-
 | Subsystem     | Status            |
 | ------------- | ----------------- |
 | Frame         | 🟢 Functional     |
@@ -177,7 +130,6 @@ The CR10CORE is an evolving project.
 #  Why publish the project?
 
 This project started as a personal experiment but i will have to present it to student next year so its a great exercice to put 1 year of thought and dev into simple a git page
-
 The project is also an attempt to document the **engineering process**, not just the final machine.
 
 ---
@@ -185,24 +137,17 @@ The project is also an attempt to document the **engineering process**, not just
 #  Contributing
 
 CR10CORE is primarily a personal project but thaks to my friend who help me at some stage of the project
-
 any ideas, improvements, bug reports and discussions are welcome.
-
 If you find a mistake, have an improvement, or simply want to discuss a design choice, feel free to open an Issue or start a Discussion.
 
-
 ---
-
 #  License
-
 This project is open source. and will remain it. any fork should be with the same liscence
 
 The specific license applying to the CAD files, hardware and software can be found in [`LICENSE`](LICENSE).
 
 ---
-
 ##  If you like the project
-
 If you find CR10CORE interesting, consider giving the repository a ⭐ on GitHub.
 
 
