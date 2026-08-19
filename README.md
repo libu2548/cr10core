@@ -22,7 +22,7 @@ So I decided to build my own printer.
 
 Not a Voron.Not a Bambu Lab.Not a Snapmaker.
 
-the printer i wanted didn't existed yet i wanted to  > **Build the best large-format printer I could, using what I already had : parts from my last printer and a lot of time.** 
+the printer i wanted didn't existed for my wallet yet so i wanted to  > **Build the best large-format printer I could, using what I already had : parts from my last printer and a lot of time.** 
 
 I designed the mechanics, experimented with different architectures, built custom electronics and firmware configurations, broke things, rebuilt them, measured them, redesigned them, and gradually turned a pile of inexpensive parts into a surprisingly capable machine.
 
@@ -45,7 +45,7 @@ The machine is built around:
 * open source
 * Verry customizable part
 * CoreXY kinematics
-* awd capability
+* awd capability (4 motors)
 * Large build volume
 * Klipper firmware
 * Custom mechanical components
@@ -57,12 +57,6 @@ The machine is built around:
 * Pressure Advance
 * Custom toolhead system
 * laser engraving/ cutting capability
-
-
-The project intentionally prioritizes:
-
-**Performance / Cost / Repairability / Modifiability**
-
 ---
 
 ##  Design philosophy
@@ -70,6 +64,7 @@ Whenever possible, I try to use:
 
 * Standard hardware
 * Cheap off-the-shelf components
+* market knokof
 * Reused parts
 * Salvaged components
 * 3D printed parts
@@ -152,5 +147,3 @@ If you find CR10CORE interesting, consider giving the repository a ⭐ on GitHub
 
 
 ---
-
-**CR10CORE Built because the printer I wanted didn't existed**
