@@ -124,20 +124,20 @@ The CR10CORE is an evolving project.
 
 #  Why publish the project?
 
-This project started as a personal experiment but i will have to present it to student next year so its a great exercice to put 1 year of thought and dev into simple a git page
+This project started as a personal experiment but i will have to present it to student next year so its a great exercise to put 1 year of thought and dev into simple a git page
 The project is also an attempt to document the **engineering process**, not just the final machine.
 
 ---
 
 #  Contributing
 
-CR10CORE is primarily a personal project but thaks to my friend who help me at some stage of the project
-any ideas, improvements, bug reports and discussions are welcome.
+CR10CORE is primarily a personal project but thanks to my friend who help me at some stage of the project.
+Any ideas, improvements, bug reports and discussions are welcome.
 If you find a mistake, have an improvement, or simply want to discuss a design choice, feel free to open an Issue or start a Discussion.
 
 ---
 #  License
-This project is open source. and will remain it. any fork should be with the same liscence
+This project is open source. and will remain it. any fork should be with the same license
 
 The specific license applying to the CAD files, hardware and software can be found in [`LICENSE`](LICENSE).
 
