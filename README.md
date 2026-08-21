@@ -74,15 +74,15 @@ The printer is designed to be understood and repaired by its builder.
 
 No proprietary ecosystem should be required to keep the machine running.
 
-### and me and your ar going to Burn thing
+### and we are going to Burn things
 
-Not every idea works.
-
+Not every of my idea works on first try.
+for example i burn several raspberry pi and motors driver, i snapped a few gt2 belt and cracked 2 taping screws.
 This will repository intentionally documents prototypes, failed designs, measurements and experiments instead of only showing the final result.
 
 
 The goal is not simply to assemble existing printer components.
-Every part of the machine has been **designed specifically for this project**.
+Every part of the machine has been **designed specifically for this project** except pcb because this shit take too much time to make (even if i can make pcb at home i will not do that for critical part of the project. mayby for simple extensions card but not for the motherboard :( .
 
 ---
 
