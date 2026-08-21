@@ -6,7 +6,7 @@ The software architecture is split between a Raspberry Pi, which runs the main s
 
 ---
 
-## 🧠 How does Klipper in my system work?
+## How does Klipper in my system work?
 
 ```text
                     Raspberry Pi
@@ -22,7 +22,7 @@ The software architecture is split between a Raspberry Pi, which runs the main s
                  │                  │
                  └────────┬─────────┘
                           │
-                      USB / CAN 
+                         USB
                           │
           ┌───────────────┴───────────────┐
           │                               │
@@ -100,7 +100,7 @@ The Octopus Pro communicates with the Raspberry Pi through USB.
 
 The **EBB42 GEN2** is a small stm32 board located directly on the toolhead.
 
-Instead of running all of the toolhead wiring of fan extrifer, probe and heater back to the mainboard, the EBB42 handles the components located around the hotend.
+Instead of running all of the toolhead wiring of fan Extruder, probe and heater back to the mainboard, the EBB42 handles the components located around the hotend.
 
 For example:
 
@@ -181,6 +181,7 @@ The official documentation recommends mounting the Eddy sensor approximately **2
 [BIGTREETECH Eddy GitHub repository](https://github.com/bigtreetech/Eddy)
 
 ### unofficial documentation of eddy ng
+
 we are gonna use a user modified version of eddy introducing some fix and added features like eddy tap.
 
 https://github.com/vvuk/eddy-ng
@@ -189,7 +190,7 @@ https://github.com/vvuk/eddy-ng/wiki
 
 ---
 
-# 🖥️ Klipper software stack
+# Klipper software 
 
 The complete software stack looks like this:
 
@@ -217,6 +218,7 @@ The complete software stack looks like this:
                                             ▼
                                         Eddy Coil
 ```
+we refer to klipper as klippy because this is the name of the python executable
 
 ### mansail
 
@@ -262,12 +264,8 @@ For example:
 config/
 │
 ├── printer.cfg
-├── steppers.cfg
-├── extruder.cfg
-├── toolhead.cfg
-├── eddy.cfg
+├── ebb.cfg
 ├── macros.cfg
-└── calibration.cfg
 ```
 
 This is particularly useful for CR10CORE because the machine has a relatively complex hardware architecture.
@@ -288,17 +286,7 @@ For detailed information about Klipper itself, always refer to the official docu
 
 ---
 
-# ⚠️ CR10CORE configuration
-
-The files used by the actual CR10CORE configuration are available in:
-
-```text
-Firmware/
-└── Klipper/
-    ├── printer.cfg
-    ├── macros/
-    └── boards/
-```
+#  CR10CORE configuration
 
 The configuration found in this repository represents the configuration of **my specific machine**.
 
