@@ -1,0 +1,1 @@
+l'electronique ce met du coté droit de l'imprimante. il faut acrocher plusieurs rail din avec les adaptateurs que je fourniq puis acrocher toutze votre électronque avec des accroche rail din comme sur les voron. vous trouverez sur le web toute les pièces compatible avec votre imprimante
