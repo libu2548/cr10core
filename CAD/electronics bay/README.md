@@ -10,6 +10,8 @@ Several DIN rails can be mounted to the electronics panel using the provided ada
 
 Once the rails are installed, the different electronic components can be mounted using standard **DIN rail clips**, similar to the system used on Voron printers.
 
+all 3d printer components have an adaptator somwhere on the web so go find it 
+
 This allows the electronics layout to be easily adapted depending on the printer configuration and the components being used.
 
 ## Compatible Components
@@ -28,4 +30,3 @@ You can therefore choose the electronics and accessories that best fit your prin
 
 The provided adapters are designed to make it possible to integrate these standard DIN rail components into the printer's electronics panel.
 
-all 3d printer components have an adaptator somwhere on the web so go find it 
