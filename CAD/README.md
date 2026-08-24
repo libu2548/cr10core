@@ -56,3 +56,9 @@ STEP files should generally be considered the **source CAD geometry**, while STL
 do not open stl on your desig software to modify them only .step
 
 ---
+
+## Important, Mirrored Parts
+
+Most of the printable parts in this section are provided **without their mirrored counterpart** to avoid duplicating files.
+
+**Remember to print the required parts twice and mirror the second copy in your slicer** when assembling the complete system.
