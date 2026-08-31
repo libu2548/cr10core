@@ -31,7 +31,7 @@ The printer uses an **AWD (All-Wheel Drive) CoreXY** configuration.
 Instead of using only two motors for the XY motion, the system uses **four independent motors**, with two motors driving each axis.
 
 i use this beacose in a traditional corexy there is a verry long belt beetween the motor and carriage (1m) introducing a spring like vibration, so by uting 2 in diagonal we can shorten the lengt beetwin the carriage from 1m to 50cm)
-
+![AWD_shama](/image/20260831_135033.jpg)
 The four motors are controlled independently.
 
 This configuration requires four stepper drivers instead of the two normally required for a standard CoreXY.
@@ -73,4 +73,4 @@ This significantly reduces the number of cables running through the moving cable
 
 It also makes the toolhead easier to modify or service, since most of its electronics are concentrated in one location.
 
-The current design uses a **BTT EBB42 Gen 2** toolboard connected to the main controller through **CAN bus**.
+The current design uses a **BTT EBB42 Gen 2** toolboard connected to the main controller through **USB**.
