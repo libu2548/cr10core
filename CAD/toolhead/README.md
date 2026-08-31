@@ -6,7 +6,7 @@ with previous designs.
 
 ---
 
-## V1 — First Version
+## V1  First Version
 
 The first toolhead was mainly focused on validating the general concept.
 
@@ -27,7 +27,7 @@ The first toolhead was mainly focused on validating the general concept.
 
 ---
 
-## V3 — First Major Evolution
+## V3  First Major Evolution
 
 The V3 significantly refined the design and introduced several new systems.
 
@@ -48,7 +48,7 @@ and integrated into the following versions.
 
 ---
 
-## V4 — Current Architecture
+## V4  Current Architecture
 
 The V4 is a more complete evolution of the toolhead, with integrated electronics
 and support for several additional tools and sensors.
@@ -66,7 +66,7 @@ by the printer while keeping the toolhead as compact and rigid as possible.
 
 ---
 
-## V5 — Toolchanger Prototype
+## V5  Toolchanger Prototype
 
 The V5 is an experimental version developed to test the concept of a **toolchanger**. could be found on my onshape
 
