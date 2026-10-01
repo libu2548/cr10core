@@ -172,7 +172,7 @@ Raspberry Pi
      Bed
 ```
 
-The official documentation recommends mounting the Eddy sensor approximately **2–3 mm above the bed when the nozzle is touching the bed**. The exact installation and calibration procedure should always follow the sensor documentation.
+The official documentation recommends mounting the Eddy sensor approximately **2/3 mm above the bed when the nozzle is touching the bed**. The exact installation and calibration procedure should always follow the sensor documentation.
 
 ### Official documentation
 
@@ -189,36 +189,6 @@ https://github.com/vvuk/eddy-ng
 https://github.com/vvuk/eddy-ng/wiki
 
 ---
-
-# Klipper software 
-
-The complete software stack looks like this:
-
-```text
-                         Web browser
-                              │
-                              ▼
-                           mansail
-                              │
-                              ▼
-                         Moonraker
-                              │
-                              ▼
-                           Klipper
-                          (klippy)
-                              │
-                ┌─────────────┴─────────────┐
-                │                           │
-               USB                         USB
-                │                           │
-                ▼                           ▼
-         Octopus Pro                    EBB42 GEN2
-         Main MCU                       Toolhead MCU
-                                            │
-                                            ▼
-                                        Eddy Coil
-```
-we refer to klipper as klippy because this is the name of the python executable
 
 ### mansail
 
@@ -288,7 +258,7 @@ For detailed information about Klipper itself, always refer to the official docu
 
 #  CR10CORE configuration
 
-The configuration found in this repository represents the configuration of **my specific machine**.
+The configuration found in this repository represents the configuration of **my machine**.
 
 It should therefore **not be copied blindly to another printer**.
 
