@@ -4,7 +4,7 @@
 
 > A fully custom, large-format CoreXY 3D printer, designed and built from scratch with one main constraint: **make it as good as possible, for as little money as possible.**
 
-![CR10CORE](/image/20260626_155403.jpg)
+![CR10CORE](/image/20260908_190145.jpg)
 
 ---
 
