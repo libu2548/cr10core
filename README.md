@@ -110,7 +110,7 @@ The CR10CORE is an evolving project.
 | Input Shaper  | 🟢 Tuned          |
 | Bed leveling  | 🟢 Functional     |
 | Toolchanger   | 🟡 In dev         |
-| Zwobble fix   | 🟡 In dev         |
+| Zwobble fix   | 🟡 finished in test|
 | Documentation | 🟡 very late      |
 
 > The status above will evolve as the project continues.
