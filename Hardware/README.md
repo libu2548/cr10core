@@ -2,7 +2,7 @@
 
 This section explains the main hardware choices made for the printer and the reasons behind them.
 
-## Mainboard — BTT Octopus Pro
+## Mainboard  BTT Octopus Pro
 
 The printer uses a **BTT Octopus Pro** as its main controller.
 
@@ -14,7 +14,7 @@ For this project, the printer is currently running at 24 V, but the choice of th
 
 ---
 
-## Stepper Drivers — TMC2209
+## Stepper Drivers  TMC2209
 
 The printer uses **TMC2209** stepper drivers.
 
@@ -60,8 +60,7 @@ The system therefore uses three additional stepper drivers, bringing the total r
 A **toolboard** is mounted directly on the toolhead.
 
 The main purpose is to move as much of the toolhead electronics as possible away from the main electronics panel.
-
-Instead of running individual cables for every component all the way back to the mainboard, the toolboard handles the local connections for things such as:
+Instead of running individual cables for every component all the way back to the mainboard, the toolboard handles the local connections for things:
 
 * Hotend
 * Fans
