@@ -212,7 +212,7 @@ It allows the web interface and other applications to communicate with Klipper.
 
 ---
 
-# 📁 Configuration
+#  Configuration
 
 The main configuration file is:
 
@@ -228,7 +228,7 @@ Additional configuration files can be included using:
 
 This allows the configuration to be split into logical components.
 
-For example:
+in my build:
 
 ```text
 config/
